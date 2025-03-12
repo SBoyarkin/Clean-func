@@ -1,5 +1,7 @@
 // TODO: write your code here
 import sum from './basic';
+import Game from "./game";
+import healthyStatus from './status'
 import defaultData, {GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from "./game";
 
 console.log('worked');
